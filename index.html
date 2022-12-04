@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Form Validation</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <header>
+        <h2>Welcome</h2>
+    </header>
+    <div class="card">
+        <h2>Registration Form</h2>
+        <div class="form">
+            
+            <form  name="Form" onsubmit="return validateForm()" method="get">
+                <div class="row">
+                <div class="col">
+                <label >Name</label><br>
+                <input type="text" name="" id="name"/>
+                </div>
+                <div class="col"><label >Address</label><br/>
+                 <input type="text" name="" id="name"/></div>
+                </div>
+                <div class="row">
+                <div class="col">
+                    <label >Phone Number</label><br/>
+                <input type="number" name="" id="name"/><br>
+                </div>
+                <div class="col">
+                <label >Email</label><br/>
+                <input type="mail" name="" id="name"/><br>
+                </div>
+                </div>
+                
+                <div class="row">
+                <div class="col">
+                    <label >Date of Birth</label><br/>
+                <input type="date" name="" id="name"/><br>
+                </div>
+                <div class="col">
+                    <label >Experience (Yrs)</label><br/>
+                <input type="number" name="" id="name"/><br>
+                </div>
+                </div>
+                
+                <div class="row">
+                   <div class="col">
+                     <label >Qualification</label><br/>
+                <input type="text" name="" id="name"/><br>
+                   </div>
+                <div class="col">
+                    <label >Expectation Salary(Rs)</label><br/>
+                <input type="number" name="" id="name"/><br>
+                </div>
+                </div>
+                
+                <input type="submit" value="Submit" id="submit">
+                <input type="reset" value="Reset" id="submit">
+            </form>
+        </div>
+        
+    </div>
+    <footer>
+        <h2>Thank You</h2>
+    </footer>
+</body>
+</html>
